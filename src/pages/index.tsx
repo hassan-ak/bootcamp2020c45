@@ -4,6 +4,13 @@ import React from "react";
 export default function Home() {
   return (
     <div>
+      <div style={{ margin: "20px", padding: "20px" }}>
+        <button className='snipcart-checkout'>Click here to checkout</button>
+        <br />
+        <span className='snipcart-items-count'></span>
+        <br />
+        <span className='snipcart-total-price'></span>
+      </div>
       <div>Direct to Snipcart</div>
       <button
         className='snipcart-add-item'
