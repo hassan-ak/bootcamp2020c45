@@ -1,9 +1,10 @@
+import { Link } from "gatsby";
 import React from "react";
 
 export default function Home() {
   return (
     <div>
-      <div>Home Page</div>
+      <div>Direct to Snipcart</div>
       <button
         className='snipcart-add-item'
         data-item-id='formal-shoe'
@@ -19,6 +20,11 @@ export default function Home() {
       >
         CheckOut
       </button>
+      <hr />
+      <hr />
+      <div>
+        <Link to='productlist'>Product List</Link>
+      </div>
     </div>
   );
 }
