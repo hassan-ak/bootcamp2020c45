@@ -4811,6 +4811,11 @@ gatsby-plugin-page-creator@^3.1.0:
     globby "^11.0.2"
     lodash "^4.17.21"
 
+gatsby-plugin-snipcartv3@^2.3.3:
+  version "2.3.3"
+  resolved "https://registry.yarnpkg.com/gatsby-plugin-snipcartv3/-/gatsby-plugin-snipcartv3-2.3.3.tgz#ac61a94f0460f3df482f0b32345fa4b6d4241435"
+  integrity sha512-Lsy5YkvbH1G9lE3fi8XGJi/8ykFTLMqa515+b2g1PFgOJDN/i1Kp/ljGAypPkpF5ZP4EL1VOJDIStrgiNsuIEg==
+
 gatsby-plugin-typescript@^3.1.0:
   version "3.1.0"
   resolved "https://registry.yarnpkg.com/gatsby-plugin-typescript/-/gatsby-plugin-typescript-3.1.0.tgz#dafb86c481f8bad84ad761e08f7d6ae83a7c73ba"
